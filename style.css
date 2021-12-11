@@ -1,4 +1,54 @@
+.head,
+.awesome,
+.footer {
+    background-color: #1f2937;
+}
 
+.head li {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.head h1 {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.awesome p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.awesome h2 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.awesome button {
+    background-color: #3882f6;
+}
+
+.info h3 {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.action {
+    background-color: #3882f6;
+}
+
+.qoute {
+    background-color: #e5e7eb;
+}
+
+.qoute p {
+    color:#1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
 
 
 .header-links li {
