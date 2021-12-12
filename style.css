@@ -1,12 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+div {
+    */border: 1px solid blueviolet;*/
+}
+
+body {
+    margin: 0px;
+}
+
+.head, .awesome, .qoute, .footer, .action, .info {
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
 .head,
 .awesome,
 .footer {
     background-color: #1f2937;
 }
 
+.awesome {
+    display: flex;
+}
+
+.awesome-text {
+    max-width: 75%;
+}
+
+
+.pumpkin {
+    float: right;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.awesome h2 {
+    margin-top: 0;
+}
+
+.head {
+    display: flex;
+    align-content: center;
+}
+
+.header-links {
+    display: flex;
+    flex-grow: 1;
+    align-content: center;
+    justify-content: end;
+}
+
 .head li {
     color: #e5e7eb;
     font-size: 18px;
+    padding: 10px;
 }
 
 .head h1 {
@@ -33,6 +86,7 @@
     color: #1f2937;
     font-size: 36px;
     font-weight: bolder;
+    text-align: center;
 }
 
 .action {
@@ -56,11 +110,57 @@
 }
 
 .header-image {
-    height: 100px;
+    display: flex;
+    height: 150px;
     width: auto;
+    justify-content: center;
 }
 
 .images {
-    height: 100px;
+    height: 150px;
     width: auto;
+}
+
+.info-images {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+.caption {
+    display: block;
+    text-align: center;
+}
+
+.jojo {
+    text-align: right;
+}
+
+.action {
+    display: flex;
+    background-clip: content-box;
+    
+}
+
+.action-text {
+    display: block;
+    padding: 1%;
+}
+
+.action-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.footer {
+    text-align: center;
+    color: cornsilk;
 }
